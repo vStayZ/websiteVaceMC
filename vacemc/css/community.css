@@ -1,0 +1,77 @@
+.community {
+    background-color: rgb(245, 245, 245);
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+}
+
+/* Title & subtitle */
+#community-title {
+    color: dimgray;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -130px;
+}
+
+/* Animation */
+.community-text-box-animation {
+    font-family: 'Montserrat', sans-serif;
+    color: dimgray;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+.community-text-box-animation:hover {
+    color: #19B5FE;
+    transition: color 0.5s;
+}
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* Row */
+.community-row {
+    color: dimgray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.col-twitter {
+  position: relative;
+  left: 0%;
+}
+.col-insta {
+  position: relative;
+  right: 0%;
+}
+
+/* Icons */
+.community-icon {
+    font-size: 280%;
+}
+.community-icon .fas {
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+.community-icon-copy {
+    font-size: 125%;
+    margin-left: -5px;
+}
+
+/* responsive */
+@media (min-width: 1000px){
+  .col-twitter {
+    left: 7%;
+  }
+  .col-insta {
+    right: 7%;
+  }
+}

@@ -1,0 +1,46 @@
+.header-stats {
+  background-color: #264157;
+  height: 230px;
+  width: auto;
+}
+
+.stats-header-image {
+  display: block;
+  margin: 0px auto;
+  width: 23%;
+}
+
+.stats-header-discord {
+  display: block;
+  width: 13%;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  background-color: #7289da;
+  border-radius: 25px;
+  box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+  border: 1px solid #4598934a;
+  transition: transform 0.8s, filter 0.5s;
+}
+.stats-header-discord:hover {
+  transform: rotate(-6deg);
+  filter: brightness(0.93);
+  transition: transform 1s, filter 0.5s;
+}
+
+.stats-header-twitter {
+  display: block;
+  width: 12%;
+  position: absolute;
+  top: 85px;
+  right: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+  border: 1px solid #4598934a;
+  transition: transform 0.8s, filter 0.5s;
+}
+.stats-header-twitter:hover {
+  transform: rotate(-6deg);
+  filter: brightness(0.93);
+  transition: transform 1s, filter 0.5s;
+}

@@ -1,0 +1,22 @@
+.chat {
+  padding-top: 50px;
+}
+
+.chat-box {
+  background-color: #2ecc71;
+  width: 68.5%;
+  height: 99px;
+  margin: 0px auto;
+}
+.chat-name {
+  padding-bottom: 0px;
+}
+.chat-head {
+  margin-top: -42px;
+}
+.chat-message {
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 120px;
+}

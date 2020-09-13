@@ -1,0 +1,77 @@
+.team {
+  background-color: #19B5FE;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+/* title */
+.team-title {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 240%;
+  font-weight: bold;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+.team-subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: 50%;
+  margin-top: -10px;
+  color: #e8e8e8f2;
+}
+.team-title-hr {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  width: 350px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.team-title-rank {
+  color: #ff0000de;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+/* head */
+.team-head {
+  transition: filter 1s, transform 1s;
+}
+.team-head:hover {
+  filter: brightness(0.9);
+  transition: filter 1s;
+}
+
+.team-head-name {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 3px;
+}
+.team-head-rank-title {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* row 2 */
+.team-head-name-tite-- {
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+}
+.team-head-rank-title-srmod {
+  color: lime;
+  font-family: 'Montserrat', sans-serif;
+}
+.team-head-rank-title-srsup {
+  color: #1400ff;
+  font-family: 'Montserrat', sans-serif;
+}
+.team-head-rank-title-srdev {
+  color: #00f3ff;
+  font-family: 'Montserrat', sans-serif;
+}

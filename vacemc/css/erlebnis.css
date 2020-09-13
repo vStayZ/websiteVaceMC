@@ -1,0 +1,70 @@
+.erlebnis {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+/* title */
+.erlebnis-title {
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 240%;
+  font-weight: bold;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+.erlebnis-title-hr {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 70px;
+}
+
+/* icons */
+.fa-cloudscale {
+  font-size: 60px;
+  transition: color 4.5s;
+}
+.fa-cloudscale:hover {
+  color: #4E9EC4;
+  transition: color 4.5s;
+}
+.fa-users {
+  font-size: 60px;
+  transition: color 4.5s;
+}
+.fa-users:hover {
+  color: #4E9EC4;
+  transition: color 4.5s;
+}
+.fa-shield-alt {
+  font-size: 60px;
+  transition: color 4.5s;
+}
+.fa-shield-alt:hover {
+  color: #4E9EC4;
+  transition: color 4.5s;
+}
+/* icons liste 2 */
+.fa-calendar-alt {
+  font-size: 60px;
+  transition: color 4.5s;
+}
+.fa-calendar-alt:hover {
+  color: #4E9EC4;
+  transition: color 4.5s;
+}
+.fa-code {
+  font-size: 60px;
+  transition: color 4.5s;
+}
+.fa-code:hover {
+  color: #4E9EC4;
+  transition: color 4.5s;
+}

@@ -1,0 +1,95 @@
+.bg-custom {
+    background-color: #264157ba;
+    margin-top: -5px;
+    z-index: 99;
+}
+
+/* navbar text */
+.nav-link {
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 120%;
+    padding-top: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+    transition: color 1.5s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+}
+.active-hr {
+    border: 1px solid white;
+    width: 68%;
+    margin-top: -18px;
+    display: none;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover{
+    transition: color 1.5s;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+
+/* active Fix */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: transparent;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: rgba(255,255,255,.5);
+}
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: rgba(255,255,255,.5);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.81);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: white;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: none;
+}
+.navbar-brand-icon {
+    height: 60px;
+    margin-top: 12px;
+    transition: transform 1.5s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+}
+.navbar-brand-icon:hover {
+    transform: scale(1.06);
+    transition: transform 1.5s;
+}
+
+/* border animation */
+.borderanim a {
+    display: inline-block;
+}
+.borderanim a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.9s;
+}
+.borderanim a:hover::after {
+    width: 100%;
+}
+
+/* responsive */
+@media (min-width: 992px){
+    .active-hr {
+        display: block;
+    }
+    .navbar-brand {
+        display: block;
+    }
+}

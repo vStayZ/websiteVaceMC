@@ -1,0 +1,41 @@
+.check-name {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 30px;
+  margin-bottom: -15px;
+}
+.check-header-hr {
+  background: radial-gradient(ellipse at center,rgba(255, 255, 255, 0.2) 0,rgba(255, 255, 255, 0) 75%);
+  height: 4px;
+  width: 30%;
+  border: 0px;
+  margin: 20px auto 0px auto;
+}
+
+.check-head {
+  position: relative;
+  top: 17.5px;
+}
+.check-title {
+  color: white;
+  font-size: 180%;
+}
+.check-subtitle {
+  color: white;
+}
+
+.check-coins-input {
+  font-size: 175%;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  width: 100px;
+}
+
+/* rank */
+.text-lila {
+  color: #6f42c1;
+}
+.text-pink {
+  color: #6610f2;
+}

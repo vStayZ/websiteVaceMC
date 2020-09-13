@@ -1,0 +1,67 @@
+.header {
+  background-image: url("../image/header-background.png");
+  background-position: -752px -100px;
+  background-attachment: fixed;
+  padding-top: 120px;
+  padding-bottom: 180px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+/* title */
+.header-title {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 360%;
+  padding-top: 75px;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+/* pulse animation */
+@keyframes pulse {
+  from { transform: scale(1); }
+  50% { transform: scale(0.90); }
+  to { transform: scale(1); }
+}
+.fe-pulse {
+  animation-name: pulse;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.header-subtitle {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  color: white;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+  text-shadow: 2px -2px black;
+  font-size: 280%;
+  padding-top: 20px;
+}
+
+.header-hr {
+  background: radial-gradient(ellipse at center,rgba(255, 255, 255, 0.2) 0,rgba(255, 255, 255, 0) 75%);
+  height: 6px;
+  width: 40%;
+  border: 0px;
+  margin: 20px auto 0px auto;
+}
+
+/* responsive */
+@media (min-width: 376px){
+  .header-title {
+    font-size: 450%;
+  }
+}
+@media (min-width: 1000px){
+  .header {
+    background-position: 0px -150px;
+  }
+}

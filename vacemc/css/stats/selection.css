@@ -1,0 +1,16 @@
+.stats-selection {
+}
+
+.stats-selection-select {
+  font-family: 'Balsamiq Sans', cursive;
+}
+.stats-selection-select a {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  transition: color 0.5s;
+}
+.stats-selection-select a:hover {
+  color: #1b17179c;
+  transition: color 0.4s;
+}

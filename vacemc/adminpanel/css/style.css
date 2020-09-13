@@ -1,0 +1,12 @@
+@import url("loading.css");
+
+@import url("navbar.css");
+@import url("header.css");
+@import url("header-config.css");
+@import url("header-blacklist.css");
+@import url("header-chat.css");
+@import url("header-check.css");
+
+body {
+  background-color: #242f3f;
+}

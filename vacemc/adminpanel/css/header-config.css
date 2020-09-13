@@ -1,0 +1,38 @@
+.input-group-text {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  background-color: #242f3f;
+  font-size: 180%;
+  margin-top: -9px;
+}
+.input-group-text {
+  border: 1px solid transparent;
+}
+.form-custom {
+  background-color: rgb(53, 60, 81);
+  width: 30%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ced4da;
+  margin: 0px auto;
+  border-radius: 6px;
+}
+.news-info {
+  color: white;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 155%;
+  margin-top: -10px;
+}
+
+.news-config-button {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+.config-input-info-br {
+  width: 45px;
+  height: 29px;
+  padding-top: 5px;
+}

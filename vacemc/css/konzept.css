@@ -1,0 +1,124 @@
+.konzept {
+  background-color: #19B5FE;
+}
+
+/* image */
+.konzept-image {
+  box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  border: 1px solid gray;
+  position: relative;
+  left: 9%;
+  top: -80px;
+  margin-bottom: -50px;
+  width: 240px;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+/* titles */
+.konzept-title {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 240%;
+  font-weight: bold;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+.konzept-title-hr {
+  width: 14.7%;
+  height: 6px;
+  background: radial-gradient(ellipse at center,rgba(0, 218, 240, 0.88) 0,rgba(66, 49, 49, 0) 75%);
+  margin: -6px auto 0px auto;
+}
+
+.konzept-p {
+  color: white;
+  width: 90%;
+  text-align: center;
+  margin: 16px auto 0px auto;
+  padding-bottom: 40px;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 120%;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+/* responsive */
+@media (min-width: 360px){
+  .konzept-image {
+    box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    left: 13%;
+    top: -80px;
+    margin-bottom: -50px;
+    width: 250px;
+  }
+}
+@media (min-width: 375px){
+  .konzept-image {
+    box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    left: 13%;
+    top: -80px;
+    margin-bottom: -50px;
+    width: 250px;
+  }
+  .konzept-p {
+    width: 85%;
+  }
+}
+@media (min-width: 414px){
+  .konzept-image {
+    box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    left: 16.5%;
+    top: -80px;
+    margin-bottom: -50px;
+    width: 250px;
+  }
+  .konzept-p {
+    width: 85%;
+  }
+}
+@media (min-width: 800px){
+  .konzept-image {
+    box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    left: 9%;
+    top: -80px;
+    margin-bottom: -50px;
+    width: 550px;
+  }
+  .konzept-p {
+    width: 100%;
+  }
+}
+@media (min-width: 1000px){
+  .konzept-image {
+    box-shadow: 0px 10px 56px -15px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    left: 10%;
+    top: -80px;
+    margin-bottom: -50px;
+    width: 900px;
+  }
+}

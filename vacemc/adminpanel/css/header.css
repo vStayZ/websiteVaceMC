@@ -1,0 +1,66 @@
+.header {
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+.adminpanel-header-title {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  color: white;
+  margin: 0px auto -15px auto;
+  padding-top: 30px;
+  font-size: 450%;
+}
+.adminpanel-header-hr {
+  background: radial-gradient(ellipse at center,rgba(255, 255, 255, 0.2) 0,rgba(255, 255, 255, 0) 75%);
+  height: 6px;
+  width: 40%;
+  border: 0px;
+  margin: 20px auto 0px auto;
+}
+
+/* row */
+.allplayers {
+  font-family: 'Domine', serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 165%;
+  padding-top: 100px;
+}
+.allplayers-number {
+  font-size: 165%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* mc status */
+.server-status {
+  margin-bottom: 30px;
+}
+.online {
+  color: green;
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+  position: relative;
+  top: -12px;
+}
+.offline {
+  color: red;
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+  position: relative;
+  top: -12px;
+}
+.wlan-icon {
+  color: white;
+  font-size: 500%;
+  margin: 30px auto -50px auto;
+}
+.server-icon {
+  color: white;
+  font-size: 500%;
+}

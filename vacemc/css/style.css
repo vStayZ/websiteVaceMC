@@ -1,0 +1,18 @@
+@import url("loading.css");
+
+@import url("navbar.css");
+@import url("header.css");
+@import url("news.css");
+@import url("konzept.css");
+@import url("erlebnis.css");
+@import url("community.css");
+@import url("team.css");
+@import url("footer.css");
+
+/* stats */
+@import url("stats/header.css");
+@import url("stats/selection.css");
+
+body {
+  background-color: rgb(245, 245, 245);
+}
